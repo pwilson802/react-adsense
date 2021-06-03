@@ -13,7 +13,7 @@ type Props = {
   pageLevelAds?: boolean;
 };
 
-export const Adsense = ({
+function Adsense({
   className = '',
   style = { display: 'block' },
   client,
@@ -24,7 +24,7 @@ export const Adsense = ({
   responsive = 'false',
   pageLevelAds = false,
   ...rest
-}: Props) => {
+}: Props) {
   useEffect(() => {
     const p: any = {};
     if (pageLevelAds) {
@@ -55,4 +55,4 @@ export const Adsense = ({
       {...rest}
     />
   );
-};
+}
