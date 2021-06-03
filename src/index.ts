@@ -1,2 +1,2 @@
 import Adsense from './adsense';
-export Adsense
+export default Adsense;
