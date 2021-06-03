@@ -1,1 +1,2 @@
-export { Adsense } from './adsense';
+import Adsense from './adsense';
+export Adsense
