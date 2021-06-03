@@ -56,3 +56,5 @@ function Adsense({
     />
   );
 }
+
+export default Adsense;
